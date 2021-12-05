@@ -1,4 +1,4 @@
-from common import run
+from common import *
 
 def p1(inp):
 	pass
@@ -10,4 +10,4 @@ example = """"""
 
 run(example, None, p1,
 	example, None, p2,
-	'nums', True)
+	nums, True)

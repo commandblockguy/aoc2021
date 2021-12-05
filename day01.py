@@ -1,4 +1,4 @@
-from common import run
+from common import *
 
 def p1(inp):
 	count = 0
@@ -30,4 +30,4 @@ example = """199
 """
 
 run(example, 7, p1,
-	example, 5, p2, 'nums', True)
+	example, 5, p2, nums, True)

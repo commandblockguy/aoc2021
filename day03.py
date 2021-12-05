@@ -1,4 +1,4 @@
-from common import run
+from common import *
 
 def p1(inp):
 	gamma = 0
@@ -60,4 +60,4 @@ example = """00100
 
 run(example, 198, p1,
 	example, 230, p2,
-	'lines', True)
+	lines, True)

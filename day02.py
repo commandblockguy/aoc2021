@@ -1,4 +1,4 @@
-from common import run
+from common import *
 
 def p1(inp):
 	depth = 0
@@ -44,4 +44,4 @@ forward 2"""
 
 run(example, 150, p1,
 	example, 900, p2,
-	'lines', True)
+	lines, True)
