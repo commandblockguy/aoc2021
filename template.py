@@ -1,13 +1,13 @@
 from common import *
 
 def p1(inp):
-	pass
+	return None
 
 def p2(inp):
-	pass
+	return None
 
 example = """"""
 
-run(example, None, p1,
-	example, None, p2,
+run(example, 0, p1,
+	example, 0, p2,
 	nums, True)

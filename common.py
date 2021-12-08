@@ -31,3 +31,6 @@ def nums(x):
 
 def dbl_lines(x):
 	return x.split('\n\n')
+
+def csv(x):
+	return [int(n) for n in x.split(',')]
